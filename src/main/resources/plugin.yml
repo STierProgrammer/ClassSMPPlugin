@@ -1,0 +1,8 @@
+name: ClassSMPPlugin
+version: '1.0-SNAPSHOT'
+main: me.stierprogrammer.classSMPPlugin.ClassSMPPlugin
+api-version: '1.21'
+commands:
+  back:
+    description: Takes back to your last death location!
+    usage: /<command>
