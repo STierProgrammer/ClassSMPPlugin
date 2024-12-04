@@ -6,3 +6,12 @@ commands:
   back:
     description: Takes back to your last death location!
     usage: /<command>
+  home:
+    description: Teleports you to your home
+    usage: /<command> <name>
+  sethome:
+    description: Allows you to set your home
+    usage: /<command> <name>
+  homes:
+    description: Shows you all of your homes
+    usage: /<command>

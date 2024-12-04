@@ -24,11 +24,13 @@ public class BackCommand implements CommandExecutor {
         if (player.getLastDeathLocation() == null) {
             player.sendMessage(ChatColor.RED + "The last death location couldn't be found!");
         }
+
         else {
             player.teleport(player.getLastDeathLocation());
         }
 
         return true;
+
     }
 
 }
